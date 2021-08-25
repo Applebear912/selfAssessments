@@ -1,0 +1,19 @@
+//DO NOT MODIFY THIS FILE
+//import FishTable from './components/FishTable.js';
+
+var fishData = [{
+  name: 'Goldfish',
+  image: 'http://tinyurl.com/n4vgcl5',
+  description: 'Everyone\'s first pet'
+}, {
+  name: 'Pufferfish',
+  image: 'http://tinyurl.com/kxd7cuu',
+  description: 'So puffy!'
+}, {
+  name: 'Tuna',
+  image: 'http://tinyurl.com/zgs7z2s',
+  description: 'Why are these things so huge? THey\'re terrifying.'
+}];
+
+ReactDOM.render(React.createElement(FishTable, { fishes: fishData }), document.getElementById('app'));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC5qcyJdLCJuYW1lcyI6WyJmaXNoRGF0YSIsIm5hbWUiLCJpbWFnZSIsImRlc2NyaXB0aW9uIiwiUmVhY3RET00iLCJyZW5kZXIiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBOztBQUVBLElBQUlBLFdBQVcsQ0FDYjtBQUNFQyxRQUFNLFVBRFI7QUFFRUMsU0FBTyw0QkFGVDtBQUdFQyxlQUFhO0FBSGYsQ0FEYSxFQU1iO0FBQ0VGLFFBQU0sWUFEUjtBQUVFQyxTQUFPLDRCQUZUO0FBR0VDLGVBQWE7QUFIZixDQU5hLEVBV2I7QUFDRUYsUUFBTSxNQURSO0FBRUVDLFNBQU8sNEJBRlQ7QUFHRUMsZUFBYTtBQUhmLENBWGEsQ0FBZjs7QUFrQkFDLFNBQVNDLE1BQVQsQ0FDRSxvQkFBQyxTQUFELElBQVcsUUFBUUwsUUFBbkIsR0FERixFQUVFTSxTQUFTQyxjQUFULENBQXdCLEtBQXhCLENBRkYiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyIvL0RPIE5PVCBNT0RJRlkgVEhJUyBGSUxFXG4vL2ltcG9ydCBGaXNoVGFibGUgZnJvbSAnLi9jb21wb25lbnRzL0Zpc2hUYWJsZS5qcyc7XG5cbnZhciBmaXNoRGF0YSA9IFtcbiAge1xuICAgIG5hbWU6ICdHb2xkZmlzaCcsXG4gICAgaW1hZ2U6ICdodHRwOi8vdGlueXVybC5jb20vbjR2Z2NsNScsXG4gICAgZGVzY3JpcHRpb246ICdFdmVyeW9uZVxcJ3MgZmlyc3QgcGV0J1xuICB9LFxuICB7XG4gICAgbmFtZTogJ1B1ZmZlcmZpc2gnLFxuICAgIGltYWdlOiAnaHR0cDovL3Rpbnl1cmwuY29tL2t4ZDdjdXUnLFxuICAgIGRlc2NyaXB0aW9uOiAnU28gcHVmZnkhJ1xuICB9LFxuICB7XG4gICAgbmFtZTogJ1R1bmEnLFxuICAgIGltYWdlOiAnaHR0cDovL3Rpbnl1cmwuY29tL3pnczd6MnMnLFxuICAgIGRlc2NyaXB0aW9uOiAnV2h5IGFyZSB0aGVzZSB0aGluZ3Mgc28gaHVnZT8gVEhleVxcJ3JlIHRlcnJpZnlpbmcuJ1xuICB9XG5dO1xuXG5SZWFjdERPTS5yZW5kZXIoXG4gIDxGaXNoVGFibGUgZmlzaGVzPXtmaXNoRGF0YX0vPixcbiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcCcpXG4pO1xuIl19
